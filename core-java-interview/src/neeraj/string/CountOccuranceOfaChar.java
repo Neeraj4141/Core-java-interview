@@ -10,6 +10,7 @@ public class CountOccuranceOfaChar {
 		int count = 0;
 
 		for (int i = 0; i < n.length(); i++) {
+
 			if (n.charAt(i) == ch) {
 				count++;
 			}

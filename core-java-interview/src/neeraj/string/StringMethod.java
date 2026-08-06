@@ -1,7 +1,5 @@
 package neeraj.string;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 public class StringMethod {
 
 	public static void main(String[] args) {
@@ -52,6 +50,9 @@ public class StringMethod {
 
 		boolean b3 = n3.equals(n4);
 		System.out.println(b3);
+		
+		boolean b44 = n1.equals(n3);
+		System.out.println(b44);
 
 		StringBuffer sb = new StringBuffer("hello");
 		StringBuffer sb1 = new StringBuffer("hello");
