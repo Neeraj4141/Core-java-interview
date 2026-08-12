@@ -4,7 +4,7 @@ public class LongestWordInParagraph {
 	
 	 public static void main(String[] args) {
 
-	        String str = "My Name Is Neeraj Mewada I Am Java Full Stack Devloper";
+	        String str = "a ab abc abcd abcde abcd abc ab a";
 
 	        String[] words = str.split(" ");
 
