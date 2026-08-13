@@ -3,7 +3,7 @@ package neeraj.javabasics;
 public class ArmstrongNo {
 	public static void main(String[] args) {
 
-		int num = 153;
+		int num = 154;
 		int num2 = num;
 		int temp = 0;
 		int r = 0;
