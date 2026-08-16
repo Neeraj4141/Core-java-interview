@@ -3,7 +3,7 @@ package neeraj.javabasics;
 public class BubbleSort {
 	public static void main(String[] args) {
 
-		int[] arr = { 89, 97, 68, 89 };
+		int[] arr = { 6, 5, 4, 3, 2, 1 };
 
 		int temp = 0;
 
