@@ -13,7 +13,8 @@ public class Peramid {
 				System.out.print("* ");
 			}
 			System.out.println();
-		}
+		}     
+		
 
 	}
 
