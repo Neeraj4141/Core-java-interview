@@ -8,9 +8,9 @@ public class AgeCount {
 
 		LocalDate date = LocalDate.now();
 
-		LocalDate cDate = LocalDate.of(1999, 05, 05);
+		LocalDate cDate = LocalDate.of(2026, 05, 05);
 
-		Period p = Period.between(date, cDate);
+		Period p = Period.between(cDate, date);
 
 		System.out.println("Year = " + p.getYears());
 		System.out.println("Month = " + p.getMonths());
