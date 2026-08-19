@@ -8,7 +8,7 @@ public interface FunctionalInt {
 		System.out.println(a - b);
 	}
 
-	public default void multi(int a, int b) {
+	default void multi(int a, int b) {
 		System.out.println(a * b);
 	}
 

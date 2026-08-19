@@ -4,7 +4,7 @@ public class SecondHighestNo {
 
 	public static void main(String[] args) {
 
-		int[] num = { 32, 32, 42, 52, 24, 24, 43, 53 };
+		int[] num = { 100, 32, 32, 42, 52, 24, 24, 43, 53 };
 
 		int first = 0;
 		int second = 0;
@@ -15,10 +15,9 @@ public class SecondHighestNo {
 
 				second = first;
 				first = num[i];
-			}
+			} else if (num[i] > second && num[i] < first) {
+				second = num[i];
 
-			if (second < num[i] && first > num[i]) {
-				second = first;
 			}
 
 		}
