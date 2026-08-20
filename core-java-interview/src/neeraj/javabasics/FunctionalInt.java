@@ -1,5 +1,6 @@
 package neeraj.javabasics;
 
+@FunctionalInterface
 public interface FunctionalInt {
 
 	public int sum(int a, int b);
