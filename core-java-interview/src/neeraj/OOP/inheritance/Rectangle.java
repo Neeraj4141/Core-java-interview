@@ -21,10 +21,9 @@ public class Rectangle extends Shape {
 		this.width = width;
 	}
 
-	@Override
 	public void area() {
 		double area = length * width;
-		System.out.println(area);
+		System.out.println("Rectangle = " + area);
 	}
 
 }

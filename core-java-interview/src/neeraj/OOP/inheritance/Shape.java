@@ -2,16 +2,8 @@ package neeraj.OOP.inheritance;
 
 public class Shape {
 
-	public String color;
 	public String name;
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
+	public String color;
 
 	public String getName() {
 		return name;
@@ -21,8 +13,16 @@ public class Shape {
 		this.name = name;
 	}
 
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	public void area() {
-		System.out.println("area of shape");
+		System.out.println("Shape Area");
 	}
 
 }
