@@ -11,7 +11,7 @@ public class Shape {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	
+
 	public double area() {
 		return 0;
 	}
