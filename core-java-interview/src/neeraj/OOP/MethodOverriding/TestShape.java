@@ -17,10 +17,15 @@ public class TestShape {
 		t.setHeight(30);
 
 		System.out.println(t.area());
-		
-		Shape r1 = new Rectangle();
 
+		Shape r1 = new Rectangle();
 		System.out.println(r1.area());
+
+		Rectangle r2 = (Rectangle) r1;
+
+		r2.setLength(34);
+		r2.setWidth(37);
+		System.out.println(r2.area());
 
 	}
 

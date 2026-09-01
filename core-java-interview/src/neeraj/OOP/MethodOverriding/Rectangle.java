@@ -23,6 +23,7 @@ public class Rectangle extends Shape {
 
 	@Override
 	public double area() {
+		System.out.println("Rectangle Area Method");
 		return length * width;
 
 	}
