@@ -19,10 +19,6 @@ public class TestShape {
 
 		s[2] = Shape.getShape(3);
 
-//		for (int i = 0; i < s.length; i++) {
-//			s[i].area();
-//		}
-
 		// Method Argument Polymorphism
 		calcArea(s);
 	}
