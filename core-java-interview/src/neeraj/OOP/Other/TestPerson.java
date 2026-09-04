@@ -16,7 +16,7 @@ public class TestPerson {
 		System.out.println(p.getAddress());
 		System.out.println(p.getMobileNo());
 		System.out.println(p.getName());
-		System.out.println(p.getDob());
+		System.out.println(sdf.format(p.getDob()));
 	}
 
 }
