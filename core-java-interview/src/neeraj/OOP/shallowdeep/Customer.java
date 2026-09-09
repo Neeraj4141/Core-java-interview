@@ -16,8 +16,9 @@ public class Customer implements Cloneable {
 
 		// Customer ke andar jo BankAccountDetails object hai,
 		// uska bhi alag object clone ho raha hai
-		c.acc = (BankAccountDetails) acc.clone();
-
+		/*
+		 * c.acc = (BankAccountDetails) acc.clone();
+		 */
 		return c;
 	}
 }
