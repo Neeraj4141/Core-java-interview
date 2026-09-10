@@ -5,13 +5,11 @@ public class TryWithMilteCatch {
 	public static void main(String[] args) {
 
 		int a = 10;
-		String name = null;
+		String name = "asdd";
 		int c = a / 0;
 		try {
-			System.out.println("Divison = " + c);
 			System.out.println(name.length());
-		} catch (ArithmeticException e) {
-			System.out.println("ArithmeticException");
+			System.out.println("Divison = " + c);
 		} catch (NullPointerException e) {
 			System.out.println(e);
 			System.out.println(e.getMessage());
