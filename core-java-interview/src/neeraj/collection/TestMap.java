@@ -11,8 +11,11 @@ public class TestMap {
 
 		map.put(1, 10);
 		map.put(2, 20);
-		map.put(null, 30);
-		map.put(4, null);
+		map.put(null, null);
+		map.put(3, null);
+
+		// null values store karta hee
+		// shorting maintain nahi hee
 
 		System.out.println(map.get(1));
 
@@ -24,6 +27,7 @@ public class TestMap {
 
 		map.clear();
 
+		System.out.println(map);
 	}
 
 }

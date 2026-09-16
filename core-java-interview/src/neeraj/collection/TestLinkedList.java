@@ -23,6 +23,8 @@ public class TestLinkedList {
 		}
 		System.out.println(list.indexOf("Dheeraj"));
 		System.out.println(list.get(4));
+		System.out.println(list.getFirst());
+		System.out.println(list.getLast());
 		list.set(1, "Mewada");
 		System.out.println(list);
 	}
