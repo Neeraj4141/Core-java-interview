@@ -14,8 +14,8 @@ public class TestMap {
 		map.put(null, null);
 		map.put(3, null);
 
-		// null values store karta hee
-		// shorting maintain nahi hee
+		// null values store karta hai
+		// sorting maintain nahi hai
 
 		System.out.println(map.get(1));
 
@@ -25,9 +25,19 @@ public class TestMap {
 
 		System.out.println(map);
 
+		// Map ko iterate karna
+		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+
+			System.out.println("Key = " + entry.getKey());
+			System.out.println("Value = " + entry.getValue());
+		}
+
+		// for (Integer key : map.keySet()) {
+		// System.out.println(key);
+		// }
+
 		map.clear();
 
 		System.out.println(map);
 	}
-
 }
