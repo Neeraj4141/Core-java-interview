@@ -23,10 +23,12 @@ public class FailFastRemoveMethod {
 
 		while (it.hasNext()) {
 			Integer s = (Integer) it.next();
-			/*
-			 * if (s.equals(4)) { it.remove(); }
-			 */
-			it.remove();
+
+			if (s.equals(4)) {
+				it.remove();
+			}
+
+			//it.remove();
 		}
 		System.out.println(list);
 	}

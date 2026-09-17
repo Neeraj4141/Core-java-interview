@@ -12,10 +12,12 @@ public class TestStackAtoZ {
 			System.out.print(s.push(ch));
 		}
 
+		Stack s1 = new Stack();
 		System.out.println();
+
 		System.out.println("==============================");
 		while (!s.empty()) {
-			System.out.print(s.pop());
+			System.out.print(s1.push(s.pop()));
 		}
 	}
 

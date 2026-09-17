@@ -17,9 +17,9 @@ public class Employee implements Comparable<Employee> {
 		if (this.name.equals(o.name)) {
 			return 0;
 		} else if (this.name.compareTo(o.name) < 0) {
-			return 1;
+			return -1;
 		}
-		return -1;
+		return 1;
 	}
 
 	@Override

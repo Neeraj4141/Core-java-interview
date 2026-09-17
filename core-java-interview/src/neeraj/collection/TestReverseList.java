@@ -15,6 +15,9 @@ public class TestReverseList {
 		list.add(4);
 		list.add(5);
 
+		// Collections.reverse(list);
+		// System.out.println(list);
+
 		for (int i = list.size() - 1; i >= 0; i--) {
 			System.out.println(list.get(i));
 
