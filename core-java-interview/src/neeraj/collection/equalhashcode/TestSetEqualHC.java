@@ -3,8 +3,6 @@ package neeraj.collection.equalhashcode;
 import java.util.HashSet;
 import java.util.Set;
 
-import neeraj.collection.comparable.Employee;
-
 public class TestSetEqualHC {
 
 	public static void main(String[] args) {
@@ -23,6 +21,7 @@ public class TestSetEqualHC {
 
 		s.add(emp);
 		System.out.println(s);
+		System.out.println(s.size());
 	}
 
 }
