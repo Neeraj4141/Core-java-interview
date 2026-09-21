@@ -1,0 +1,17 @@
+package neeraj.collection.streamapi;
+
+import java.util.stream.Stream;
+
+public class StreamToArray {
+	public static void main(String[] args) {
+
+		Stream<String> s = Stream.of("Neeraj", "Lucky", "Ankit");
+
+		String[] arr = s.toArray(e -> new String[e]);
+
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+	}
+
+}
