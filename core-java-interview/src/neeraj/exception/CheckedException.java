@@ -2,12 +2,8 @@ package neeraj.exception;
 
 public class CheckedException {
 
-	public static void main(String[] args) {
-		try {
-			dad();
-		} catch (Exception e) {
-			System.out.println("Handel");
-		}
+	public static void main(String[] args) throws Exception {
+		dad();
 	}
 
 	public static void dad() throws Exception {
