@@ -11,7 +11,9 @@ public class TestList {
 
 		list.add('a');
 		list.add('b');
-		list.add('c');
+		list.add(null);
+		list.add(null);
+		list.add('a');
 
 		List list2 = new ArrayList();
 

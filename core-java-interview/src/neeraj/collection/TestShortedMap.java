@@ -15,9 +15,10 @@ public class TestShortedMap {
 		m.put(3, "Three");
 		m.put(2, "Two");
 		m.put(4, null);
-		m.put(6, "Four");
+		m.put(6, "One");
 		m.put(5, null);
 
+		System.out.println(m);
 		System.out.println(m.lastKey()); // sabse badi key
 		System.out.println(m.firstKey()); // sabse chhoti key
 		System.out.println(m.tailMap(4)); // 4 se last tak ki entries

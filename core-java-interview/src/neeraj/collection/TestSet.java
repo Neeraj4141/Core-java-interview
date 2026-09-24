@@ -10,9 +10,9 @@ public class TestSet {
 
 		Set s = new HashSet();
 
-		s.add("null");
 		s.add(1);
 		s.add(2);
+		s.add(null);
 		s.add(null);
 		s.add(null);
 		s.add(1);

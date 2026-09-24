@@ -15,6 +15,7 @@ public class TestShotedSet {
 		s.add(16);
 		s.add(18);
 		s.add(17);
+		s.add(17);
 
 		System.out.println(s); // Set ka pura data
 		System.out.println(s.headSet(12)); // 12 se chhoti values
