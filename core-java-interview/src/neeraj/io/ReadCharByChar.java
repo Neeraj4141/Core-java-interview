@@ -8,21 +8,28 @@ public class ReadCharByChar {
 
 	public static void main(String[] args) throws IOException {
 
-		FileReader file = new FileReader("D:\\Hibernate Jars");
-		FileWriter wfile = new FileWriter("D:\\Rays PDF");
+		/*
+		 * FileReader file = new FileReader("D:\\Hibernate Jars"); FileWriter wfile =
+		 * new FileWriter("D:\\Rays PDF");
+		 * 
+		 * int ch = file.read();
+		 * 
+		 * while (ch != -1) {
+		 * 
+		 * System.out.println((char) ch);
+		 * 
+		 * wfile.write(ch); ch = file.read();
+		 * 
+		 * } wfile.close(); file.close();
+		 */
 
-		int ch = file.read();
+		String n = new String("abc");
+		
+		System.out.println();
+		System.out.println(n);
+		n = "cba";
 
-		while (ch != -1) {
-
-			System.out.println((char) ch);
-
-			wfile.write(ch);
-			ch = file.read();
-
-		}
-		wfile.close();
-		file.close();
+		System.out.println(n);
 	}
 
 }
