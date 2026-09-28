@@ -6,7 +6,7 @@ import java.sql.Date;
 public class FileInfo {
 	public static void main(String[] args) {
 
-		File f = new File("D:\\io\\keyboard.txt");
+		File f = new File("D:\\io\\Keyboard.txt");
 
 		if (f.exists()) {
 

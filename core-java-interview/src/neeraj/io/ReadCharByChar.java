@@ -6,30 +6,35 @@ import java.io.IOException;
 
 public class ReadCharByChar {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException  {
 
-		/*
-		 * FileReader file = new FileReader("D:\\Hibernate Jars"); FileWriter wfile =
-		 * new FileWriter("D:\\Rays PDF");
-		 * 
-		 * int ch = file.read();
-		 * 
-		 * while (ch != -1) {
-		 * 
-		 * System.out.println((char) ch);
-		 * 
-		 * wfile.write(ch); ch = file.read();
-		 * 
-		 * } wfile.close(); file.close();
-		 */
+		// Source file
+		FileReader file = new FileReader("D:\\io\\Keyboard.txt");
 
-		String n = new String("abc");
-		
-		System.out.println();
-		System.out.println(n);
-		n = "cba";
+		// Destination file
+		// Agar Copy.txt nahi hai to FileWriter khud create kar dega
+		FileWriter wfile = new FileWriter("D:\\io\\Copy.txt");
 
-		System.out.println(n);
+		// Pehla character read
+		int ch = file.read();
+
+		// Jab tak file ka end nahi aata
+		while (ch != -1) {
+
+			// Character console par print
+			System.out.println((char) ch);
+
+			// Character ko destination file mein write
+			wfile.write(ch);
+
+			// Next character read
+			ch = file.read();
+		}
+
+		// Files close
+		wfile.close();
+		file.close();
+
+		System.out.println("File copied successfully.");
 	}
-
 }
