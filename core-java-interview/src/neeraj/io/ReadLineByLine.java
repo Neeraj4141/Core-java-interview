@@ -15,6 +15,7 @@ public class ReadLineByLine {
 			System.out.println(line);
 			line = reader.readLine();
 		}
+		reader.close();
 
 	}
 }
