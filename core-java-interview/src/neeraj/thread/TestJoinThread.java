@@ -17,5 +17,4 @@ public class TestJoinThread {
 		t2.start();
 
 	}
-
 }
