@@ -21,7 +21,7 @@ public class TCPServer {
 
 		DataOutputStream out = new DataOutputStream(client.getOutputStream());
 
-		out.writeBytes("Hello clients");
+		out.writeBytes("Hello clients\n");
 
 		String s = in.readLine();
 

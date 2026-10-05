@@ -16,7 +16,7 @@ public class TCPClient {
 
 		DataOutputStream out = new DataOutputStream(client.getOutputStream());
 
-		out.writeBytes("Hello Server");
+		out.writeBytes("Hello Server\n");
 
 		String s = in.readLine();
 
