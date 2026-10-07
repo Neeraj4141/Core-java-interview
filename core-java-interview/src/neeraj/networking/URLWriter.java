@@ -11,7 +11,7 @@ public class URLWriter {
 	
 	public static void main(String[] args) throws IOException {
 		
-	URL u = new URL("https://erp.sunilos.com/NCSA/#/OnlineTestResult");
+		URL u = new URL("https://erp.sunilos.com/NCSA/#/OnlineTestResult");
 		
 		String question = "java";
 		
