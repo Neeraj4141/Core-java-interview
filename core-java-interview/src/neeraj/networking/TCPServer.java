@@ -25,8 +25,6 @@ public class TCPServer {
 
 		String s = in.readLine();
 
-		System.out.println(s);
-
 		server.close();
 		client.close();
 

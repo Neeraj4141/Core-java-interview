@@ -19,6 +19,6 @@ public class TestEmployeeComparable {
 		Collections.sort(list);
 		// Collections.shuffle(list);
 
-		System.out.println(list);
+		System.out.print(list);
 	}
 }
